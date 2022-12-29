@@ -1,0 +1,125 @@
+.Container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #005c5e;
+}
+.head {
+  width: 100%;
+  height: 13%;
+  background-color: white;
+  filter: drop-shadow(0 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
+}
+
+.headCon {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bdy {
+  width: 90%;
+  height: 87%;
+  margin-left: 5%;
+  background-color: #f2e9e4;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#bcArow {
+  width: 7%;
+  height: 70%;
+  background-image: url("../../../assets/Pics/back.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: none;
+}
+#bcArow:active {
+  box-shadow: 0 0px #ad8a16;
+  transform: translateY(1px);
+}
+#title {
+  margin-right: 1%;
+  /*  font-family: "Amiri", serif; */
+  font-family: "Mada", sans-serif;
+  font-size: 2em;
+  direction: rtl;
+  color: #005c5e;
+}
+
+.CardTitle {
+  margin-right: 2%;
+  font-size: 1.8em;
+  font-family: "Mada", sans-serif;
+  font-weight: bold;
+}
+#icon {
+  width: 10%;
+  height: 80%;
+  margin-left: 2%;
+}
+/* ----------------------------------------------------------------------------------- */
+.dropbtn {
+  width: 95%;
+  height: 85px;
+  min-height: 80px;
+  background-color: #cad2c5;
+  margin-top: 2%;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  filter: drop-shadow(0 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
+  font-family: "Mada", sans-serif;
+  margin-top: 1%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dropdown-content {
+  /*  display: none; */
+  background-color: #f9f9f9;
+  min-width: 95%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 35px 35px;
+  text-decoration: none;
+  display: block;
+  direction: rtl;
+  font-family: "Mada", sans-serif;
+  font-size: 1.7em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown:hover .dropbtn {
+  background-color: #84a98c;
+}
+/* =============================================== */
+@media screen and (max-width: 450px) {
+  .dropdown {
+    margin-top: 2%;
+  }
+}

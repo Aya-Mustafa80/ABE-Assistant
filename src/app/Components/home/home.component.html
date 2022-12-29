@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"></div>
+      <div class="floutLabel">
+        <h1></h1>
+      </div>
+      <div class="restofbody">
+        <div class="card" id="but1">
+          <img src="assets/Pics/banker.png" alt="Teller" />
+          <div class="dropdown">
+            <button class="dropbtn" (click)="OpenList1()">
+              {{ MainLst1.Name }}
+            </button>
+            <div class="dropdown-content" *ngIf="falg1">
+              <a
+                routerLink="/TellerRMList/{{ MainLst1.Positions[0].Id }}"
+                routerLinkActive="active"
+              >
+                {{ MainLst1.Positions[0].Name }}</a
+              >
+              <a
+                routerLink="/TellerRMList/{{ MainLst1.Positions[1].Id }}"
+                routerLinkActive="active"
+                >{{ MainLst1.Positions[1].Name }}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/Pics/banker1.png" alt="RM" />
+          <div class="dropdown">
+            <button class="dropbtn" (click)="OpenList2()">
+              {{ MainLst2.Name }}
+            </button>
+            <div class="dropdown-content" *ngIf="falg2">
+              <a
+                routerLink="/TellerRMList/{{ MainLst2.Positions[0].Id }}"
+                routerLinkActive="active"
+                >{{ MainLst2.Positions[0].Name }}
+              </a>
+              <a
+                routerLink="/TellerRMList/{{ MainLst2.Positions[1].Id }}"
+                routerLinkActive="active"
+                >{{ MainLst2.Positions[1].Name }}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

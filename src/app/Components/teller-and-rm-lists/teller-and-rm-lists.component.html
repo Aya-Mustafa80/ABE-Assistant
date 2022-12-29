@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="head">
+        <div class="headCon">
+          <button
+            routerLink="/Home"
+            routerLinkActive="active"
+            id="bcArow"
+          ></button>
+          <h1 id="title">{{ title }}</h1>
+        </div>
+      </div>
+      <div class="bdy">
+        <div class="dropdown" *ngFor="let item of List">
+          <button
+            class="dropbtn"
+            (click)="Toggle(item)"
+            *ngIf="item.MainItem"
+            routerLink="/TellerRMExplanation/{{ item.Code }}"
+            routerLinkActive="active"
+          >
+            <h4 class="CardTitle">{{ item.Name }}</h4>
+            <img id="icon" src="assets/Pics/bank-check.png" alt="" />
+          </button>
+          <button class="dropbtn" (click)="Toggle(item)" *ngIf="!item.MainItem">
+            <h4 class="CardTitle">{{ item.Name }}</h4>
+            <img id="icon" src="assets/Pics/bank-check.png" alt="" />
+          </button>
+          <div class="dropdown-content" *ngIf="item.Open">
+            <a
+              *ngFor="let el of item.SubList"
+              routerLink="/TellerRMExplanation/{{ el.Code }}"
+              routerLinkActive="active"
+              >{{ el.Name }}
+            </a>
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      </div>
+    </div>
+  </body>
+</html>

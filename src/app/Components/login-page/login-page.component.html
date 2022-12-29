@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="left">
+        <img id="logopic" src="assets/Pics/ABELog.png" alt="" />
+        <h1 class="logo">ABE Assistant</h1>
+        <h1 class="logo1">الــبنك الزراعــى المصــرى</h1>
+      </div>
+      <div class="right">
+        <div class="con">
+          <img id="logopic_small" src="assets/Pics/ABELog1.png" alt="" />
+          <h1 id="login">تسجيــل الدخــول</h1>
+          <input
+            type="text"
+            name="Username"
+            placeholder="ادخــل اســم المستخــدم"
+            id="User"
+          />
+          <input
+            type="password"
+            name="pass"
+            placeholder="ادخـــل كلمـه المرور"
+            #Pass
+            id="Pass"
+          />
+          <p id="err" *ngIf="error">اســم المسـتخدم او كلمـه المـرور خاطئه</p>
+          <button (click)="CheckLogin()">تسجيــل الدخــول</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

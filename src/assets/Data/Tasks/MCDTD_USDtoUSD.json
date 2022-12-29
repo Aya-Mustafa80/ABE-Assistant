@@ -1,0 +1,93 @@
+{
+  "Title": " ايداع بالــدولار في حساب عميل بالــدولار ",
+  "Code": "MCDTD",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيار انشاء حركة جديدة",
+          "Count": 1
+        },
+        {
+          "Text": "اختيار ايداع نقدي بعملة واحدة",
+
+          "Count": 2
+        },
+        {
+          "Text": "الضغط على انتقال",
+          "Count": 3
+        }
+      ],
+      "Screans": ["assets/Pics/MCDTD/MCDTD1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "يتم اضافة سجل أو قيد في قائمة السجلات",
+          "Count": 4
+        }
+      ],
+      "Screans": ["assets/Pics/MCDTD/MCDTD2.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الحساب الاجنبي (الدولار) أو البحث عنه بواسطة الـ CIF",
+          "Count": 5
+        }
+      ],
+      "Screans": [
+        "assets/Pics/MCDTD/MCDTD3.jpg",
+        "assets/Pics/MCDTD/MCDTD4.jpg"
+      ]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال المبلغ بالــدولار",
+          "Count": 6
+        }
+      ],
+      "Screans": ["assets/Pics/MCDTD/MCDTD5.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال اسم المودع",
+          "Count": 7
+        },
+        {
+          "Text": "اختيار مصدر الأموال من خلال البحث ",
+          "Count": 8
+        },
+        {
+          "Text": "الضغط على حفظ واستعراض لحفظ القيد أو السجل",
+          "Count": 9
+        }
+      ],
+      "Screans": ["assets/Pics/MCDTD/MCDTD6.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال تفاصيل النقدية من خلال الضغط على تفاصيل الفئات النقدية ",
+          "Count": 10
+        },
+        {
+          "Text": "الضغط على حفظ",
+          "Count": 11
+        }
+      ],
+      "Screans": ["assets/Pics/MCDTD/MCDTD7.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على ارسال اذا كان المبلغ في صلاحية الصراف",
+          "Count": 12
+        }
+      ],
+      "Screans": ["assets/Pics/MCDTD/MCDTD8.jpg"]
+    }
+  ]
+}

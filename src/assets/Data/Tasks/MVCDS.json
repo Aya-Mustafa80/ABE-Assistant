@@ -1,0 +1,42 @@
+{
+  "Title": "تعديــل خزيــنه ",
+  "Code": "MVCDS",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الموظف",
+          "Count": 1
+        },
+        {
+          "Text": "ادخال العملة التي تم فتح الخزينة بها",
+
+          "Count": 2
+        },
+        {
+          "Text": "الضغط على انتقال",
+          "Count": 3
+        }
+      ],
+      "Screans": ["assets/Pics/MVCDS/MVCDS1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "  \"تعديل تفاصيل الفئات\" النقد الصالح للاستعمال فى",
+          "Count": 4
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على حفظ ثم اظغط على ارسال",
+          "Count": 5
+        }
+      ],
+      "Screans": ["assets/Pics/MVCDS/MVCDS2.jpg"]
+    }
+  ]
+}

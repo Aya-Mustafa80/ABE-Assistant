@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="head">
+        <div class="headCon">
+          <button (click)="backClicked()" id="bcArow"></button>
+          <h1 id="title">{{ Task.Title }}</h1>
+        </div>
+      </div>
+      <div class="bdy">
+        <h3 id="mainTitle">
+          للدخــول الى القائــمه نقوم بادخــال الاختصار
+          <span style="font-weight: bold; color: #005c5e"
+            >" {{ Task.Code }} "</span
+          >
+        </h3>
+        <div *ngFor="let step of Task.Steps">
+          <div class="step" *ngFor="let exp of step.Explaniation">
+            <h1 class="exp">
+              <span class="count">{{ exp.Count }}</span
+              >{{ exp.Text }}
+            </h1>
+          </div>
+          <div *ngFor="let scrn of step.Screans">
+            <img class="img" src="{{ scrn }}" alt="" />
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br />
+      </div>
+    </div>
+  </body>
+</html>

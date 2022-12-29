@@ -1,0 +1,169 @@
+.Container {
+  width: 99.8%;
+  height: 99.8%;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 40%;
+  height: 100%;
+  background-color: #84a98c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  font-family: "Anton", sans-serif;
+  font-size: 3em;
+  margin-top: 10%;
+  color: #005c5e;
+}
+.logo1 {
+  font-family: "Anton", sans-serif;
+  font-size: 3em;
+  margin-top: 10%;
+  color: white;
+}
+#logopic {
+  margin-top: 5%;
+}
+#logopic_small {
+  display: none;
+}
+.right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login {
+  width: 40%;
+  height: 7%;
+  text-align: center;
+  font-family: "Mada", sans-serif;
+  color: black;
+  font-size: 2.2em;
+  border-bottom: 2px solid #005c5e;
+  direction: rtl;
+  color: #005c5e;
+}
+.con {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  filter: drop-shadow(0 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
+  box-shadow: 0px 8px 16px 0px rgb(132, 169, 140, 0.5);
+}
+input {
+  width: 80%;
+  height: 70px;
+  min-height: 70px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  box-shadow: 0px 8px 16px 0px rgb(132, 169, 140, 0.5);
+  padding-left: 10px;
+  font-size: 1.8em;
+  font-family: "Mada", sans-serif;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid #005c5e;
+}
+button {
+  margin-top: 5%;
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Mada", sans-serif;
+  background-color: #005c5e;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+}
+button:active {
+  background-color: #005c5e;
+  border: 2px solid #005c5e;
+  box-shadow: 0 3px #005c5e;
+  transform: translateY(1px);
+}
+#err {
+  color: red;
+  font-size: large;
+  font-family: "Mada", sans-serif;
+}
+/* ================================================================ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  text-align: right;
+  opacity: 1; /* Firefox */
+  padding: 10px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  text-align: right;
+  font-size: larger;
+  padding: 10px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  text-align: right;
+  font-size: larger;
+  padding: 10px;
+}
+/* ==================================================================== */
+@media screen and (max-width: 1000px) {
+  .left {
+    width: 30%;
+  }
+  .right {
+    width: 70%;
+  }
+  .logo1 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+  #logopic_small {
+    display: flex;
+    position: absolute;
+    justify-self: right;
+    height: 19%;
+    top: 0;
+    left: 77.5%;
+  }
+}
+@media screen and (max-width: 534px) {
+  #login {
+    width: 60%;
+  }
+
+  button {
+    width: 60%;
+  }
+  #logopic_small {
+    left: 74%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #logopic_small {
+    left: 70%;
+  }
+  #login {
+    font-size: 1.6em;
+  }
+}

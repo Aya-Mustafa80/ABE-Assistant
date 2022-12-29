@@ -1,0 +1,110 @@
+{
+  "Title": "تحويل مبـلغ مصـري من حسـاب عميل لحسـاب داخـلي للبـنك",
+  "Code": "MBITTD",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيـار تحويل بنـاء على طلـب البـنك",
+          "Count": 1
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على اضافة في قائمة السجلات لاضافة سجل أو قيد",
+          "Count": 2
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD2.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيار النوع \"مدين\" (المحول)",
+          "Count": 3
+        },
+        {
+          "Text": "ادخال رقم الحساب أو البحث عنه بواسطة الـ CIF",
+          "Count": 4
+        }
+      ],
+      "Screans": [
+        "assets/Pics/MBITTD/MBITTD3.jpg",
+        "assets/Pics/MBITTD/MBITTD4.jpg"
+      ]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخــال المبــلغ ",
+          "Count": 5
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD5.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على حفظ واضافة جديد لاضافة القيد الاخر المقابل له",
+          "Count": 6
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD6.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيار النوع \"دائن\" (المحول اليه)",
+          "Count": 7
+        },
+        {
+          "Text": "ادخال رقم الحساب الداخلي الخاص بالبنك أو البحث عنه: اختيار من قائمة ملكية الحساب، \"حساب داخلي\" ",
+          "Count": 8
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD7.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على بحث واختيار الحساب الداخلي المراد",
+          "Count": 9
+        }
+      ],
+      "Screans": [
+        "assets/Pics/MBITTD/MBITTD8.jpg",
+        "assets/Pics/MBITTD/MBITTD9.jpg"
+      ]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على \"استدعاء المبلغ المقابل\" أو كتابة المبلغ يدوياً",
+          "Count": 10
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD10.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على حفظ واستعراض",
+          "Count": 11
+        }
+      ],
+      "Screans": ["assets/Pics/MBITTD/MBITTD11.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على ارسال اذا كان التحويل في صلاحية الصراف",
+          "Count": 12
+        }
+      ],
+      "Screans": ["assets/Pics/MCITTD/MCITTD12.jpg"]
+    }
+  ]
+}

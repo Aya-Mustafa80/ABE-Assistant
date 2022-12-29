@@ -1,0 +1,135 @@
+[
+  {
+    "Name": "مراجعه ملف بيانات أفراد",
+    "Code": "RCCAT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه ملف بيانات شركات",
+    "Code": "RCCAT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه الحقول الاساسيه لملف بيانات العميل",
+    "Code": "VCCF",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "توثيق فتح حسابات توفير وجاري",
+    "Code": "INSTACCT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه الاغلاق حسابات توفير وجاري",
+    "Code": "VAC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه انشاء ودائع وشهادات",
+    "Code": "INSTTD",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه طلب فتح دفتر الشيكات",
+    "Code": "CCHQBOOK",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعة اغلاق حساب وديعة",
+    "Code": "VTDAC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه فتح حساب قرض افراد من الكور",
+    "Code": "VRLA",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه صرف قرض افراد من الكور",
+    "Code": "VLDR",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه سداد مجدول قروض افراد",
+    "Code": "VLSP",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه السداد الغير مجدول لقرض افراد",
+    "Code": "VRLUP",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه السداد الكامل للقرض للافراد",
+    "Code": "VLP_retail",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه فتح حساب جاري مدين",
+    "Code": "VOAO",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعة حساب قرض تجاري",
+    "Code": "VCLA",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعة سحب او عكس دفعة الاقراض التجارى",
+    "Code": "VCLDR",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعة السدداد المجدول للقرض التجاري",
+    "Code": "VCLSP",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعة سداد الغير مجدول للقرض التجاري",
+    "Code": "VCLUP",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعة سداد كامل للقرض التجاري",
+    "Code": "VLP_commercial",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  }
+]

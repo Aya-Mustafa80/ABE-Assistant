@@ -1,0 +1,287 @@
+body {
+  width: 100vw;
+  height: 150vh;
+  background-color: #ffff;
+}
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100.2%;
+  height: 20%;
+  background-image: url("../../../assets/Pics/ABELogo1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floutLabel {
+  top: 20%;
+  left: 26%;
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  border-radius: 20px;
+  background-color: #f2e9e4;
+  filter: drop-shadow(0 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
+  border: 2px solid #e3f8f9;
+  text-align: center;
+}
+.restofbody {
+  width: 90%;
+  height: 80%;
+  background-color: #005c5e;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+h1 {
+  position: relative;
+  top: 20%;
+  direction: rtl;
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+h1::after {
+  animation: move 4s infinite;
+  content: "";
+  border-left: 2px solid #fff;
+  color: #ad8a16 !important;
+  font-size: 1.8em !important;
+}
+
+@keyframes move {
+  0% {
+    content: "ر";
+  }
+  10% {
+    content: "را";
+  }
+  20% {
+    content: "راع";
+  }
+  30% {
+    content: "راعى";
+  }
+  40% {
+    content: "راعى";
+  }
+  50% {
+    content: "راعى ا";
+  }
+  60% {
+    content: "راعى ار";
+  }
+  70% {
+    content: "راعى ارض";
+  }
+  80% {
+    content: " راعى ارض م";
+  }
+  90% {
+    content: " راعى ارض مص";
+  }
+  100% {
+    content: " راعى ارض مصر";
+  }
+}
+
+button:active {
+  background-color: #ad8a16;
+  border: 2px solid #ad8a16;
+  box-shadow: 0 3px #ad8a16;
+  transform: translateY(1px);
+}
+/* .title {
+} */
+.card {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 0;
+  margin-top: 10%;
+}
+img {
+  height: 60%;
+}
+
+/* ----------------------------------------------------------------------------------- */
+.dropbtn {
+  background-color: #ad8a16;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 60%;
+  color: white;
+  direction: rtl;
+  font-size: 1.9em;
+  border: none;
+  filter: drop-shadow(0 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
+  font-family: "Mada", sans-serif;
+  margin-top: 1%;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+}
+
+.dropdown-content {
+  /*  display: none; */
+  background-color: #f9f9f9;
+  min-width: 60%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  direction: rtl;
+  font-family: "Mada", sans-serif;
+  font-size: 1.4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.dropdown:hover .dropbtn {
+  background-color: #84a98c;
+}
+/* ____________________________________________________________________________ */
+@media screen and (max-width: 1250px) {
+  h1 {
+    position: relative;
+    bottom: 25%;
+    direction: rtl;
+    font-family: "Noto Nastaliq Urdu", serif;
+  }
+  .floutLabel {
+    top: 22%;
+    left: 15%;
+    width: 70%;
+    height: 20%;
+  }
+  h1::after {
+    font-size: 1.6em !important;
+  }
+  button {
+    width: 90%;
+    height: 20%;
+    font-size: 1.5em;
+  }
+  .card {
+    width: 40%;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    position: relative;
+    bottom: 25%;
+    direction: rtl;
+    font-family: "Noto Nastaliq Urdu", serif;
+  }
+  .floutLabel {
+    top: 22%;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+  }
+  h1::after {
+    font-size: 1.6em !important;
+  }
+  button {
+    width: 90%;
+    height: 20%;
+    font-size: 1.5em;
+  }
+  .card {
+    width: 40%;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    position: relative;
+    bottom: 30%;
+    direction: rtl;
+    font-family: "Noto Nastaliq Urdu", serif;
+  }
+  .floutLabel {
+    top: 22%;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+  }
+  h1::after {
+    font-size: 1.6em !important;
+  }
+  button {
+    width: 90%;
+    height: 20%;
+    font-size: 1.5em;
+  }
+  .card {
+    width: 40%;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    position: relative;
+    bottom: 10%;
+    direction: rtl;
+    font-family: "Noto Nastaliq Urdu", serif;
+  }
+  .floutLabel {
+    top: 23%;
+    left: 7.5%;
+    width: 85%;
+    height: 15%;
+  }
+  h1::after {
+    font-size: 0.9em !important;
+  }
+  .card {
+    width: 100%;
+    margin-top: 5%;
+  }
+  button {
+    width: 80%;
+    height: 20%;
+    font-size: 1.5em;
+  }
+  .restofbody {
+    flex-direction: column;
+  }
+}
