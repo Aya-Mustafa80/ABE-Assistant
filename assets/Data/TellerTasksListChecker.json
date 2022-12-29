@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "مراجعه طلب فتح و غلق الخزنه",
+    "Code": "VVCD",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "توثيق حركه نقديه",
+    "Code": "PCT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "توثيق حركه غير نقديه",
+    "Code": "PNCT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "تحويل نقدى بين صرافين الخزنه",
+    "Code": "MCTTD",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "توثيق او مراجعه جميع حركات",
+    "Code": "PVT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه عكس حركه نقديه",
+    "Code": "VRMT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه عكس حركه غير نقديه",
+    "Code": "VTR",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه حركه حواله",
+    "Code": "MPOR",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه ايقاف دفع شيك مصرفي",
+    "Code": "VDDSP",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "مراجعه االيقاف للشيك المصرفي",
+    "Code": "VRDDSP",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  }
+]

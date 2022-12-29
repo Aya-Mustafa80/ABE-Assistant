@@ -1,0 +1,87 @@
+{
+  "Title": "سحـب مبلغ مصري من حساب عمـيل بالـمصري ",
+  "Code": "MCWTD",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيار انشاء حركة جديدة",
+          "Count": 1
+        },
+        {
+          "Text": "اختيار سحــب نقدي بعملة واحدة",
+
+          "Count": 2
+        },
+        {
+          "Text": "الضغط على انتقال",
+          "Count": 3
+        }
+      ],
+      "Screans": ["assets/Pics/MCWTD/MCWTD1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على اضافة في قائمة السجلات لاضافة سجل أو قيد",
+          "Count": 4
+        }
+      ],
+      "Screans": ["assets/Pics/MCWTD/MCWTD2.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الحساب المصري أو البحث عنه بواسطة الـ CIF",
+          "Count": 5
+        }
+      ],
+      "Screans": [
+        "assets/Pics/MCWTD/MCWTD3.jpg",
+        "assets/Pics/MCWTD/MCWTD4.jpg"
+      ]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال المبلغ بالــمصرى",
+          "Count": 6
+        }
+      ],
+      "Screans": ["assets/Pics/MCWTD/MCWTD5.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال اسم السـاحب",
+          "Count": 7
+        },
+        {
+          "Text": "الضغط على حفظ واستعراض لحفظ القيد أو السجل",
+          "Count": 8
+        }
+      ],
+      "Screans": ["assets/Pics/MCWTD/MCWTD6.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال تفاصيل النقدية من خلال الضغط على تفاصيل الفئات النقدية ",
+          "Count": 9
+        },
+        {
+          "Text": "الضغط على حفظ",
+          "Count": 10
+        },
+        {
+          "Text": "الضغط على ارسال اذا كان المبلغ في صلاحية الصراف",
+          "Count": 11
+        }
+      ],
+      "Screans": [
+        "assets/Pics/MCWTD/MCWTD7.jpg",
+        "assets/Pics/MCWTD/MCWTD8.jpg"
+      ]
+    }
+  ]
+}

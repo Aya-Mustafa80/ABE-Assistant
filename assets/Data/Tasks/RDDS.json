@@ -1,0 +1,51 @@
+{
+  "Title": "عكس حاله الشيك المصرفي ",
+  "Code": "RDDS",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الشيك",
+          "Count": 1
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "اضغط على بحث",
+          "Count": 2
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيار الشيك المراد عكس حالته من اختيار",
+          "Count": 3
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "اضغط على متابعه",
+          "Count": 4
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": " اضغط على ارسال",
+          "Count": 5
+        }
+      ],
+      "Screans": []
+    }
+  ]
+}

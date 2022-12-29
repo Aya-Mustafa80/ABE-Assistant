@@ -1,0 +1,109 @@
+{
+  "Title": "التحويــل بين الخــزن",
+  "Code": "MCTTD",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "اختيار انشاء حركة جديدة",
+          "Count": 1
+        },
+        {
+          "Text": "الضغط على انتقال ثم إضافة",
+          "Count": 2
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "يتم تحديد نوع الحركة مدين",
+          "Count": 3
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "يتم ادخال رقم الحساب المراد تحويل الحساب اليها",
+          "Count": 4
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال المبلغ",
+          "Count": 5
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على حفظ واضافة جديد",
+          "Count": 6
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "تحديد نوع الحركة دائن",
+          "Count": 7
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "يتم ادخال رقم الحساب المراد التحويل منه",
+          "Count": 8
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على استدعاء المبلغ المقابل او كتباة المبلغ يدويا",
+          "Count": 9
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على حفظ واستعراض",
+          "Count": 10
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "يتم ادخال تفاصيل الفئات النقدية والضغط على حفظ",
+          "Count": 11
+        }
+      ],
+      "Screans": []
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على ارسال",
+          "Count": 12
+        }
+      ],
+      "Screans": []
+    }
+  ]
+}

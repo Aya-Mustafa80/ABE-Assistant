@@ -1,0 +1,33 @@
+{
+  "Title": "الغــاء خزيــنه ",
+  "Code": "CCVD",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الموظف",
+          "Count": 1
+        },
+        {
+          "Text": "ادخال العملة التي تم فتح الخزينة بها",
+
+          "Count": 2
+        },
+        {
+          "Text": "الضغط على انتقال",
+          "Count": 3
+        }
+      ],
+      "Screans": ["assets/Pics/CCVD/CCVD1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط  على ارسال",
+          "Count": 4
+        }
+      ],
+      "Screans": ["assets/Pics/CCVD/CCVD2.jpg"]
+    }
+  ]
+}

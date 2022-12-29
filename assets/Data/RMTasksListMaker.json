@@ -1,0 +1,330 @@
+[
+  {
+    "Name": "فتح ملف بيانات أفراد",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "عميل",
+        "Code": "cerc_customer",
+        "SubList": []
+      },
+      {
+        "Name": "موظف بنك زراعي",
+        "Code": "cerc_abeEmployee",
+        "SubList": []
+      },
+      {
+        "Name": "عميل قاصر",
+        "Code": "cerc_minor",
+        "SubList": []
+      },
+      {
+        "Name": "عميل محتمل",
+        "Code": "cerc_prospect",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "تحويل عميل محتمل إلي عميل أفراد",
+    "Code": "CREC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "إستكمال ملف عميل أفراد",
+    "Code": "ERC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "فتح ملف بيانات شركات",
+    "Code": "CECC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "استكمال ملف بيانات الشركات",
+    "Code": "ECC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "فتح حسابات توفير وجاري",
+    "Code": "INSTACCT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "فتح ودائع وشهادات",
+    "Code": "INSTTD",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "اغلاق حسابات توفير وجاري",
+    "Code": "CAT",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "إلغاء إغلاق حساب",
+    "Code": "CAC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "إغلاق حسابات ودائع وشهادات",
+    "Code": "CTDA",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "إلغاء إنشاء وديعة",
+    "Code": "CTDAC",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "محاكاة لغلق حسابات الودائع والشهادات",
+    "Code": "PTCTDA",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "طلب فتح دفتر الشيكات",
+    "Code": "CCHQBOOK",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "قــروض افراد من ال Core",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "فتح حساب قرض أفراد",
+        "Code": "ORLA",
+        "SubList": []
+      },
+      {
+        "Name": "إلغاء فتح حساب قرض أفراد",
+        "Code": "CRLAO",
+        "SubList": []
+      },
+      {
+        "Name": "تعديل فتح حساب القرض لالفراد",
+        "Code": "MORLAV",
+        "SubList": []
+      },
+      {
+        "Name": "صرف قرض الافراد",
+        "Code": "PLD",
+        "SubList": []
+      },
+      {
+        "Name": "إلغاء او عكس صرف القرض",
+        "Code": "CLDR",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "قــروض شركات من ال Core",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": " فتح حساب قرض تجاري ",
+        "Code": "OCLA",
+        "SubList": []
+      },
+      {
+        "Name": "تعديل حساب قرض تجاري",
+        "Code": "MOCLAV",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء فتح حساب قرض تجاري",
+        "Code": "CCLAO",
+        "SubList": []
+      },
+      {
+        "Name": "صرف قرض تجاري",
+        "Code": "PCLD",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء عمليه صرف قرض تجاري",
+        "Code": "CCLDR",
+        "SubList": []
+      },
+      {
+        "Name": "عكس عمليه صرف قرض تجاري",
+        "Code": "RCLD",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "سداد قروض الافراد من ال Core",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "انشاء سداد مجدول",
+        "Code": "PLSP",
+        "SubList": []
+      },
+      {
+        "Name": "انشاء سداد غير مجدول",
+        "Code": "ARLUP",
+        "SubList": []
+      },
+      {
+        "Name": "سداد كامل لقرض الافراد",
+        "Code": "POLA_retail",
+        "SubList": []
+      },
+      {
+        "Name": ".إلغاء سداد مجدول القرض",
+        "Code": "CLSP",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء سداد غير مجدول لقرض",
+        "Code": "CRLUP",
+        "SubList": []
+      },
+      {
+        "Name": "عكس تفاصيل صرف القرض",
+        "Code": "RLDD",
+        "SubList": []
+      },
+      {
+        "Name": "عكس السداد المجدول للقرض",
+        "Code": "RLSP",
+        "SubList": []
+      },
+      {
+        "Name": "عكس السداد الغير مجدول للقرض",
+        "Code": "RRLUP",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "سداد القروض التجارية من ال Core",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "انشاء سداد مجدول",
+        "Code": "ACCLSP",
+        "SubList": []
+      },
+      {
+        "Name": "انشاء سداد غير مجدول",
+        "Code": "ACCLUP",
+        "SubList": []
+      },
+      {
+        "Name": "سداد كامل لقرض تجاري",
+        "Code": "POLA_commercial",
+        "SubList": []
+      },
+      {
+        "Name": "إلغاء سداد كامل القرض",
+        "Code": "CLP",
+        "SubList": []
+      },
+      {
+        "Name": "عكس عملية سداد مجدول للقرض التجاري",
+        "Code": "RCLSP",
+        "SubList": []
+      },
+      {
+        "Name": "عكس عملية سداد غير مجدول للقرض التجاري",
+        "Code": "RCLUP",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء سداد مجدول للقرض التجاري",
+        "Code": "CCLSP",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء سداد غير مجدول للقرض التجاري",
+        "Code": "CCLUP",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "قروض افراد من ال Crm",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "انشاء قرض أفراد زراعى",
+        "Code": "CRCAN_agrical",
+        "SubList": []
+      },
+      {
+        "Name": "انشاء قرض أفراد شخصى",
+        "Code": "CRCAN_perconal",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "فتح قرض تجاري شركات من ال Crm",
+    "Code": "CMCAN",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+
+  {
+    "Name": "overdraft قروض جــارى مــدين",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "فتح حساب جاري مدين",
+        "Code": "OOA",
+        "SubList": []
+      },
+      {
+        "Name": "تعديل حساب جاري مدين",
+        "Code": "MOOAV",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء حساب جاري مدين",
+        "Code": "COAO",
+        "SubList": []
+      }
+    ]
+  }
+]

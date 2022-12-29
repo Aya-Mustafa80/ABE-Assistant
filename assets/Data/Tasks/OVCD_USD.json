@@ -1,0 +1,42 @@
+{
+  "Title": "فتـــح خزيــنه بالـمصرى",
+  "Code": "OVCD",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الموظف",
+          "Count": 1
+        },
+        {
+          "Text": " ادخال العملة المصرية (USD)",
+
+          "Count": 2
+        },
+        {
+          "Text": "الضغط على انتقال",
+          "Count": 3
+        }
+      ],
+      "Screans": ["assets/Pics/OVCD_Egp/OVCD1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "     ادخــال تفاصيل الفئات فى \" النقد الصالح للاستعمال\" ",
+          "Count": 4
+        }
+      ],
+      "Screans": ["assets/Pics/OVCD_Egp/OVCD2.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": "الضغط على حفظ ثم اظغط على ارسال",
+          "Count": 5
+        }
+      ],
+      "Screans": ["assets/Pics/OVCD_Egp/OVCD3.jpg"]
+    }
+  ]
+}

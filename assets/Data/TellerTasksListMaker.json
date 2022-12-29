@@ -1,0 +1,323 @@
+[
+  {
+    "Name": "فتــح خزينـه",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+    "SubList": [
+      {
+        "Name": "فتـح خزنيه بـالمصري",
+        "Code": "OVCD_EGP",
+        "SubList": []
+      },
+      {
+        "Name": "فتـح خزنيه بـالدولار",
+        "Code": "OVCD_USD",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "تعديــل خزينـه",
+    "Code": "MVCDS",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "الغــاء خزينـه",
+    "Code": "CCVD",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+
+  {
+    "Name": "غلــق خزينه",
+    "Code": "CVCDS",
+    "Open": false,
+    "MainItem": true,
+    "SubList": []
+  },
+  {
+    "Name": "الايــداع",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "ايداع مبلغ مصري في حساب عميل بالمصري",
+        "Code": "MCDTD_EGPtoEGP",
+        "SubList": []
+      },
+      {
+        "Name": "ايداع مبلغ مصري في حساب عميل بالدولار",
+        "Code": "MCDTD_EGPtoUSD",
+        "SubList": []
+      },
+      {
+        "Name": "ايداع مبلغ بالدولار في حساب عميل بالمصري",
+        "Code": "MCDTD_USDtoEGP",
+        "SubList": []
+      },
+      {
+        "Name": "ايـداع مبلغ بالدولار في حساب عميل بالدولار",
+        "Code": "MCDTD_USDtoUSD",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "الســـحب",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "سحـب مبلغ مصري من حساب عميل بالمصري",
+        "Code": "MCWTD_EGPfromEGP",
+        "SubList": []
+      },
+      {
+        "Name": "سحـب مبلغ مصري من حساب عميل بالدولار",
+        "Code": "MCWTD_EGPfromUSD",
+        "SubList": []
+      },
+      {
+        "Name": "سحـب مبلغ بالدولار من حساب عميل بالمصري",
+        "Code": "MCWTD_USDfromEGP",
+        "SubList": []
+      },
+      {
+        "Name": "سحـب مبلغ بالدولار من حساب عميل بالدولار",
+        "Code": "MCWTD_USDfromUSD",
+        "SubList": []
+      },
+      {
+        "Name": "سحـب شيك عادي من حساب عميل",
+        "Code": "MCWTD_Cheque",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "التــحويلات الداخلية",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "تحويل مبلغ مصري من حساب عميل لحساب عميل اخر",
+        "Code": "MCITTD",
+        "SubList": []
+      },
+      {
+        "Name": "تحويل مبلغ مصري من حساب عميل لحساب داخلي للبنك",
+        "Code": "MBITTD",
+        "SubList": []
+      },
+      {
+        "Name": "التحويل بين الخزن",
+        "Code": "MCTTD",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "الحــوالات الخارجية",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "Ach",
+        "Code": "AAPO",
+        "SubList": []
+      },
+      {
+        "Name": "Swift",
+        "Code": "AEPO",
+        "SubList": []
+      },
+      {
+        "Name": "E-swift",
+        "Code": "ASPO",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "الشيــكات المصرفية",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "اصدار شيك مصرفي للعميل",
+        "Code": "IEDD",
+        "SubList": []
+      },
+      {
+        "Name": "صرف شيك مصرفي للعميل",
+        "Code": "PDD",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء شيك مصرفي للعميل",
+        "Code": "CDDT",
+        "SubList": []
+      },
+      {
+        "Name": "وقف شيك مصرفي للعميل ",
+        "Code": "SDDP",
+        "SubList": []
+      },
+      {
+        "Name": "الغاء ايقاف الشيك المصرفي ",
+        "Code": "CRDDSP",
+        "SubList": []
+      },
+      {
+        "Name": "تاشير الشيك المصرفي كمفقود ",
+        "Code": "MDDL",
+        "SubList": []
+      },
+      {
+        "Name": "اصدار نسخة مكررة للشيك المصرفي",
+        "Code": "IDDD",
+        "SubList": []
+      },
+      {
+        "Name": "طباعة النسخة المكررة للشيك المصرفي",
+        "Code": "RDDF",
+        "SubList": []
+      },
+      {
+        "Name": "عكس حاله الشيك المصرفي",
+        "Code": "RDDS",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "إدارة تفاصيل فئات نقدية حساب الصراف",
+    "Code": "MTADD",
+    "Open": false,
+    "MainItem": true,
+
+    "SubList": []
+  },
+  {
+    "Name": "إجراء استبدال النقدية",
+    "Code": "PCCE",
+    "Open": false,
+    "MainItem": true,
+
+    "SubList": []
+  },
+  {
+    "Name": "حذف حركات فى حالة الإدخال",
+    "Code": "DTDS",
+    "Open": false,
+    "MainItem": true,
+
+    "SubList": []
+  },
+  {
+    "Name": "انشاء تفاصيل حركة صرف نقدية للعملة الأجنبية",
+    "Code": "CFCCETD",
+    "Open": false,
+    "MainItem": true,
+
+    "SubList": []
+  },
+
+  {
+    "Name": "الاستعــلامات",
+    "Code": "null",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "الاستعلام عن موقف الصراف النقدي للموظف",
+        "Code": "ITCPE",
+        "SubList": []
+      },
+      {
+        "Name": "الاستعلام عن موقف الصراف النقدي",
+        "Code": "ITCP",
+        "SubList": []
+      },
+      {
+        "Name": "الاستعلام عن موقف الصراف النقدي للعملة",
+        "Code": "ITCPC",
+        "SubList": []
+      },
+      {
+        "Name": "الاستعلام عن تفاصيل النقدية بالخزينة",
+        "Code": "IVCD",
+        "SubList": []
+      },
+      {
+        "Name": "الاستعلام عن دفتر االستاذ",
+        "Code": "IAL",
+        "SubList": []
+      },
+      {
+        "Name": " الاستعلام عن بيانات الاطراف المرتبطة",
+        "Code": "IRPD",
+        "SubList": []
+      },
+      {
+        "Name": "الاستعلام على الحركات المالية",
+        "Code": "IFT",
+        "SubList": []
+      },
+      {
+        "Name": "استعلام عن أمر الدفع",
+        "Code": "IPOS",
+        "SubList": []
+      },
+      {
+        "Name": "الاستعلام عن الشيك المصرفي",
+        "Code": "IDDT",
+        "SubList": []
+      },
+      {
+        "Name": "عرض قائمة حسابات العميل",
+        "Code": "VCAL",
+        "SubList": []
+      }
+    ]
+  },
+  {
+    "Name": "التقــارير",
+    "Code": "",
+    "Open": false,
+    "MainItem": false,
+
+    "SubList": [
+      {
+        "Name": "إنشاء تقرير الفئات النقدية حسب الحركةوالصراف والفرع (محضر جرد)",
+        "Code": "GSTTCDR",
+        "SubList": []
+      },
+      {
+        "Name": "انشاء الى مجمع لتقرير شروف النقدي",
+        "Code": "BGSCR",
+        "SubList": []
+      },
+      {
+        "Name": "طباعة الايصال ",
+        "Code": "PVR",
+        "SubList": []
+      }
+    ]
+  }
+]

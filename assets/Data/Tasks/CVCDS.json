@@ -1,0 +1,37 @@
+{
+  "Title": "اغـــلاق الخــزيــنة",
+  "Code": "CVCDS",
+  "Steps": [
+    {
+      "Explaniation": [
+        {
+          "Text": "ادخال رقم الموظف",
+          "Count": 1
+        },
+        {
+          "Text": "ادخال العملة التي تم فتح الخزينة بها",
+
+          "Count": 2
+        },
+        {
+          "Text": "الضغط على انتقال",
+          "Count": 3
+        }
+      ],
+      "Screans": ["assets/Pics/CVCDS/CVCDS1.jpg"]
+    },
+    {
+      "Explaniation": [
+        {
+          "Text": " ادخال تفاصيل فئات النقدية في \" تفاصيل الاغلاق \"",
+          "Count": 4
+        },
+        {
+          "Text": "الضغط على ارسال",
+          "Count": 5
+        }
+      ],
+      "Screans": ["assets/Pics/CVCDS/CVCDS2.jpg"]
+    }
+  ]
+}
